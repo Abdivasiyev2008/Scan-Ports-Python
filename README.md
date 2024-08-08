@@ -1,7 +1,10 @@
 # Scan-Ports-Python
 You can check all ports of website with this python code ;)
 
-First of all you must install all necessary packages with this command 
+First of all you must clone this code on your computer with this code
+> git clone git@github.com:Abdivasiyev2008/Scan-Ports-Python.git
+
+Next step, you must install all necessary packages with this command 
 > pip install -r req.txt
 
 Next step, if you don't understand how use this code, you should enter this code on terminal
