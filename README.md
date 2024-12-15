@@ -1,23 +1,83 @@
-# Scan-Ports-Python
-You can check all ports of website with this python code ;)
+---
 
-First of all you must clone this code on your computer with this code
-> git clone git@github.com:Abdivasiyev2008/Scan-Ports-Python.git
+# Scan Ports Python 🔍
 
-Next step, you must install all necessary packages with this command 
-> pip install -r req.txt
+## Overview
+You can check all ports of a website with this Python script! 🚀 Simple and effective for network scanning and security analysis.
 
-Next step, if you don't understand how use this code, you should enter this code on terminal
-> python main.py --help
+---
 
-Scan ports with default. You can enter IP address. You can replace example.com to any url of website.
-> python main.py https://example.com
+## Installation 🛠️
 
-If you want to start with you entered port. Start [Entered Port] End [65535 Port]
-> python main.py --start [port] https://example.com
+### Step 1: Clone the Repository
+First of all, you must clone this code to your computer with this command:
 
-If you want to add limit
-> python main.py --start [start_port] --end [end_port] https://example.com
+```bash
+git clone git@github.com:Abdivasiyev2008/Scan-Ports-Python.git
+```
 
+---
 
-Created by Sunnatillo
+### Step 2: Install Dependencies
+Next, install all necessary Python packages using the following command:
+
+```bash
+pip install -r req.txt
+```
+
+---
+
+## Usage 🚦
+
+### Help Command
+If you don't understand how to use this code, you can get detailed instructions by running:
+
+```bash
+python main.py --help
+```
+
+---
+
+### Scan Ports with Defaults 🔑
+To scan ports using default settings, you just need to enter the target website or IP address. Replace `example.com` with the desired URL:
+
+```bash
+python main.py https://example.com
+```
+
+---
+
+### Start from a Specific Port 📍
+If you want to start scanning from a specific port and go up to port 65535, use:
+
+```bash
+python main.py --start [port] https://example.com
+```
+
+---
+
+### Add a Port Range Limit ⏳
+To scan within a specific port range, define both the start and end ports:
+
+```bash
+python main.py --start [start_port] --end [end_port] https://example.com
+```
+
+---
+
+## Example Output 🖥️
+
+When scanning, you will see results like this:
+```
+Scanning target: https://example.com
+Ports scanned: 1-65535
+Open Ports:
+ - Port 22: SSH
+ - Port 80: HTTP
+ - Port 443: HTTPS
+```
+
+---
+
+## Credits 💡
+Created by Sunnatillo Abdivasiyev.
